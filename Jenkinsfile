@@ -3,7 +3,7 @@ pipeline{
    stages{
     stage('#1.Checkout'){
      steps{
-        git url:https://github.com/JanhaviThiru/jenrepo.git'
+        git url:'https://github.com/JanhaviThiru/jenrepo.git',branch:'main'
 }
 }
 
