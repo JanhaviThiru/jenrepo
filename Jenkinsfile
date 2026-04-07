@@ -24,3 +24,5 @@ pipeline{
       bat 'docker run -d -p 4000:00 --name mycont mywebsite'
 }
 }
+   }
+}
